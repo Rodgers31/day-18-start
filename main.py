@@ -9,14 +9,12 @@ timmy_the_turtle = Turtle()
 #     timmy_the_turtle.forward(100)
 #     timmy_the_turtle.right(90)
 
-for _ in range(50):
-    turtle.position()
-    turtle.pen(pensize=1)
-    turtle.forward(10)
-    turtle.penup()
-    turtle.forward(10)
-    turtle.pendown()
-    turtle.forward(10)
+for _ in range(15):
+    timmy_the_turtle.pen(pensize=1)
+    timmy_the_turtle.forward(10)
+    timmy_the_turtle.penup()
+    timmy_the_turtle.forward(10)
+    timmy_the_turtle.pendown()
 
 
 # import heroes
